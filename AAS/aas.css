@@ -2,6 +2,7 @@ body{
   font-family: Arial, sans-serif;
   font-weight: 600;
   background-color: #f0f0f0;
+  font-size: large;
 }
 
 header {
@@ -17,7 +18,7 @@ h1{
 .aas-table {
   width: 100%;
   border-collapse: collapse;
-  margin: 20px auto;
+  margin: 10px auto;
   font-family: Arial, sans-serif;
   font-weight: 500;
 }
@@ -27,6 +28,10 @@ h1{
   border: 2px solid #ddd;
   padding: 10px;
   text-align: center;
+}
+
+.aas-table td{
+  text-align: justify;
 }
 
 .aas-table th {
