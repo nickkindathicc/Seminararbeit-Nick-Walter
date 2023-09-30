@@ -1,0 +1,39 @@
+/* CSS für die Tabelle */
+body{
+  font-family: Arial;
+  font-weight: 600;
+}
+
+header {
+  background-color: #d9e2eb;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+}
+
+.aas-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+}
+
+.aas-table th,
+.aas-table td {
+  border: 2px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.aas-table th {
+  background-color: #bbc9d8;
+  color: white;
+}
+
+.aas-table tbody tr:nth-child(odd) {
+  background-color: rgb(208, 251, 255);
+}

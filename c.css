@@ -1,0 +1,65 @@
+/* CSS für Übersicht */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 250%;
+}
+
+header{
+  padding-top: 25px;
+  padding-left: 70px;
+  padding-right: 90px;
+  padding-bottom: 60px;
+}
+
+.bild-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; 
+  padding: 20px;
+}
+
+.bild {
+  width: 25%;
+  padding: 1px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.bild img {
+  max-width: 100%;
+  height: auto;
+  width: fit-content; 
+  display: block;
+  margin-top: 30px;
+}
+
+
+.bild-caption {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.bild:hover {
+  cursor: pointer;
+  background-color: rgb(84, 233, 203); 
+  transition: background-color 2s ease;
+}
+
+a{
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: medium;
+}
