@@ -29,6 +29,7 @@ h1{
   border: 2px solid #ddd;
   padding: 10px;
   text-align: center;
+  vertical-align: top;
 }
 
 .aas-table td{
