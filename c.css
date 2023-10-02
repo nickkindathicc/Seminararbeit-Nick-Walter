@@ -16,14 +16,16 @@ header{
 }
 
 .bild-container {
+  justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; 
   align-items: center; 
   padding: 20px;
 }
 
 .bild {
+  flex: 0 1 calc(33.33% - 10px); /* 33.33% für gleichmäßige Aufteilung auf 3 Bilder pro Zeile */
+  margin-bottom: 20px;
   width: 25%;
   padding: 1px;
   box-sizing: border-box;
