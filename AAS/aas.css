@@ -8,12 +8,12 @@ body{
 header {
   background-color: #f0f0f0;
   color: rgb(0, 0, 0);
-  padding: 20px;
+  padding: 10px;
 }
 
 h1{
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .aas-table {
