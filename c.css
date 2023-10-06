@@ -69,3 +69,7 @@ a{
   h5{
     text-align: center;
   }
+
+  a:hover {
+    text-decoration: dotted;
+  }
