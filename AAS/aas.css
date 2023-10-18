@@ -26,7 +26,7 @@ h1{
 
 .aas-table th,
 .aas-table td {
-  border: 2px solid #ddd;
+  border: 2px solid #f0f0f0;
   padding: 10px;
   text-align: center;
   vertical-align: top;
@@ -37,12 +37,12 @@ h1{
 }
 
 .aas-table th {
-  background-color: #3a3737;
+  background-color: #331a7c;
   color: white;
 }
 
 .aas-table tbody tr:nth-child(odd) {
-  background-color: rgb(236, 250, 248);
+  background-color: #e5e5e5;
 }
 
 a:hover {

@@ -1,4 +1,3 @@
-/* CSS für Übersicht */
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
@@ -9,10 +8,10 @@ body {
 }
 
 header{
-  padding-top: 25px;
+  padding-top: 10px;
   padding-left: 70px;
   padding-right: 90px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .bild-container {
